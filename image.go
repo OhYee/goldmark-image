@@ -2,7 +2,7 @@
 //
 // This extension adds a link to the image
 
-package dot
+package img
 
 import (
 	"bytes"

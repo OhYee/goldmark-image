@@ -1,4 +1,4 @@
-package dot
+package img
 
 import (
 	"bytes"
