@@ -1,6 +1,7 @@
 # goldmark-image
 
-[![master_test](https://github.com/OhYee/goldmark-image/workflows/master_test/badge.svg)](https://github.com/OhYee/goldmark-image/actions?workflow=master_test)
+[![Sync to Gitee](https://github.com/OhYee/goldmark-image/workflows/Sync%20to%20Gitee/badge.svg)](https://gitee.com/OhYee/goldmark-image) [![w
+orkflow state](https://github.com/OhYee/goldmark-image/workflows/test/badge.svg)](https://github.com/OhYee/goldmark-image/actions) [![codecov](https://codecov.io/gh/OhYee/goldmark-image/branch/master/graph/badge.svg)](https://codecov.io/gh/OhYee/goldmark-image) [![version](https://img.shields.io/github/v/tag/OhYee/goldmark-image)](https://github.com/OhYee/goldmark-image/tags)bn
 
 goldmark-image is an extension for [goldmark](https://github.com/yuin/goldmark).  
 
@@ -20,7 +21,7 @@ package main
 import (
 	"bytes"
 	"fmt"
-	"github.com/OhYee/goldmark-dot"
+	img "github.com/OhYee/goldmark-image"
 	"github.com/yuin/goldmark"
 	"github.com/yuin/goldmark/extension"
 	"github.com/yuin/goldmark/parser"
@@ -32,7 +33,7 @@ func main() {
 
 	md := goldmark.New(
 	    goldmark.WithExtensions(
-			NewImg("image", nil),
+			img.NewImg("image", nil),
 		),
 	)
 
