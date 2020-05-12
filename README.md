@@ -1,7 +1,7 @@
 # goldmark-image
 
 [![Sync to Gitee](https://github.com/OhYee/goldmark-image/workflows/Sync%20to%20Gitee/badge.svg)](https://gitee.com/OhYee/goldmark-image) [![w
-orkflow state](https://github.com/OhYee/goldmark-image/workflows/test/badge.svg)](https://github.com/OhYee/goldmark-image/actions) [![codecov](https://codecov.io/gh/OhYee/goldmark-image/branch/master/graph/badge.svg)](https://codecov.io/gh/OhYee/goldmark-image) [![version](https://img.shields.io/github/v/tag/OhYee/goldmark-image)](https://github.com/OhYee/goldmark-image/tags)bn
+orkflow state](https://github.com/OhYee/goldmark-image/workflows/test/badge.svg)](https://github.com/OhYee/goldmark-image/actions) [![codecov](https://codecov.io/gh/OhYee/goldmark-image/branch/master/graph/badge.svg)](https://codecov.io/gh/OhYee/goldmark-image) [![version](https://img.shields.io/github/v/tag/OhYee/goldmark-image)](https://github.com/OhYee/goldmark-image/tags)
 
 goldmark-image is an extension for [goldmark](https://github.com/yuin/goldmark).  
 
